@@ -24,7 +24,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.sass"
             ],
             "scripts": []
           },
@@ -120,6 +120,12 @@
           }
         }
       }
-    }},
-  "defaultProject": "myApp"
+    }
+  },
+  "defaultProject": "myApp",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "sass"
+    }
+  }
 }

@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+/*
+Error: Invalid CSS after "": expected expression (e.g. 1px, bold), was "#8cb369ff"
+        on line 2 of C:\Users\frant\WebstormProjects\CFLMS-Angular1-Cornelia-Goran-Onur\CFLMS-Angular-1-Cornelia-Goran--Onur\Cornelia\myApp\src\styles.sass
+
+1: /* You can add global styles to this file, and also import other style files *\/
+2: $olivine: #8cb369ff
+3: $buff: #f4e285ff
+4: $gold-metallic: #cfac2e
+5: $wintergreen-dream: #5b8e7dff
+6: $bittersweet-shimmer: #bc4b51ff
+7: $dark-lava: #423629ff
+
+Backtrace:
+C:\Users\frant\WebstormProjects\CFLMS-Angular1-Cornelia-Goran-Onur\CFLMS-Angular-1-Cornelia-Goran--Onur\Cornelia\myApp\src\styles.sass:2
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/lexer.rb:231:in `expected!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:723:in `assert_expr'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:68:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:228:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script.rb:27:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:1177:in `parse_script'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:783:in `parse_variable'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:651:in `parse_line'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:540:in `build_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:559:in `block in append_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:558:in `each'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:558:in `append_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:417:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"\": expected expression (e.g. 1px, bold), was \"#8cb369ff\"\A         on line 2 of C:\Users\frant\WebstormProjects\CFLMS-Angular1-Cornelia-Goran-Onur\CFLMS-Angular-1-Cornelia-Goran--Onur\Cornelia\myApp\src\styles.sass\A \A 1: /* You can add global styles to this file, and also import other style files */\A 2: $olivine: #8cb369ff\A 3: $buff: #f4e285ff\A 4: $gold-metallic: #cfac2e\A 5: $wintergreen-dream: #5b8e7dff\A 6: $bittersweet-shimmer: #bc4b51ff\A 7: $dark-lava: #423629ff"; }
