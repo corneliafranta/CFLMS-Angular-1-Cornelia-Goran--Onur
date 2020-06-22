@@ -1,0 +1,21 @@
+[{
+  "logo": "<i class='fas fa-hotel'></i>",
+  "title": "Accommodation ",
+  "description": "We offer the finest selectiopn of hotels everywhere "
+
+},{
+  "logo": "<i class='fas fa-plane'></i>",
+  "title": "Transportation ",
+  "description": "Whether you want to travel by train plane or ship we will set it up for you"
+
+},{
+  "logo": "<i class='fas fa-users'></i>",
+  "title": "Seasond Agents ",
+  "description": "Combined, the experience that our agents have is centuries "
+
+},{
+  "logo": "<i class='fas fa-star'></i>",
+  "title": "Easy trip planing",
+  "description": "Our travel agents are always ready to plan your perfect trip "
+}
+]
